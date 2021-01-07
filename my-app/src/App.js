@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./App.css";
 
 function App() {
   const langDb = {
@@ -23,18 +24,28 @@ function App() {
   };
 
   return (
-    <div>
-      <h1>Programming Languages</h1>
+    <div className="main__div">
+      <h1 className="main__heading">Programming Languages</h1>
       {Object.keys(langDb).map(function (items) {
-        return <button onClick={() => clickHandler(items)}>{items}</button>;
+        return (
+          <button
+            className="button instagram"
+            onClick={() => clickHandler(items)}
+          >
+            {items}
+          </button>
+        );
       })}
       <hr />
       {langDb[state].map(function (book) {
         return (
-          <div>
-            <h1>{book.name}</h1>
-            <h1>{book.version}</h1>
-          </div>
+          <ul>
+            <li>
+              {book.name}
+              <br />
+              {book.version}
+            </li>
+          </ul>
         );
       })}
     </div>

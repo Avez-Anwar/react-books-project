@@ -1,45 +1,40 @@
-.App {
-  text-align: center;
-  margin-top: 100px;
+.main__div {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
 }
 
-.App > p {
-  padding: 30px;
-}
-
-.buttonOne {
-  padding: 10px 100px;
+.button {
+  text-size-adjust: 100%;
   cursor: pointer;
-  background: rgb(229, 231, 235);
+  background: rgb(66, 102, 173);
   border-radius: 0.5rem;
   padding: 0.5rem 1rem;
-  border: 1px solid black;
+  border: 1px solid #6f2232;
   margin: 1rem 0.3rem;
+  color: #edc7b7;
 }
 
-.buttonTwo {
-  padding: 10px 100px;
-  cursor: pointer;
-  background: rgb(229, 231, 235);
+ul {
+  line-height: 1.15;
+  text-size-adjust: 100%;
+  font-family: "Lato", sans-serif;
+  text-align: left;
+  padding-inline-start: 0px;
+}
+
+li {
+  line-height: 1.15;
+  text-size-adjust: 100%;
+  font-family: "Lato", sans-serif;
+  list-style: none;
+  padding: 1rem;
+  color: #c3073f;
+  border: 1px solid#6f2232;
+  width: 70%;
+  margin: 1rem 0rem;
   border-radius: 0.5rem;
-  padding: 0.5rem 1rem;
-  border: 1px solid black;
-  margin: 1rem 0.3rem;
 }
-
-.buttonStyle {
-  padding: 10px 100px;
-  cursor: pointer;
-  background: rgb(229, 231, 235);
-  border-radius: 0.5rem;
-  padding: 0.5rem 1rem;
-  border: 1px solid black;
-  margin: 1rem 0.3rem;
-}
-
-.script__style {
-  border: 1px solid black;
-  display: block;
-  padding: 10px;
-  margin: 20px 700px;
+.main__heading {
+  color: #e85a4f;
 }
